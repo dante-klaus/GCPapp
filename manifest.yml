@@ -18,7 +18,7 @@ spec:
         app: react-webapp
     spec:
       containers:
-      - image: gcr.io/fullstackappgcp/react-webapp:v1
+      - image: gcr.io/reactnodegcp/react-webapp:v1
         name: webapp
         imagePullPolicy: Always
         resources: {}
